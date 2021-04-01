@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+th {
+  background-color: #ED4946;
+  color: white;
+}
+
+table {
+  width: 200px;
+}
+
+td, th {
+  padding: 5px;
+}
+
+tbody {
+  tr:nth-child(even) {
+    background-color: #e7e7e7;
+  }
+}
+
+list-pagination {
+  margin-top: 10px;
+}
